@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rlanfrage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluemnermenu" >
+
+    <ScrollView
+        android:id="@+id/SvAnfrage"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbars="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LlAnfrage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TvKaufenVerkaufen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kaufenverkaufen" android:textColor="@color/darkgrey"/>
+
+            <Spinner
+                android:id="@+id/SpKaufenVerkaufen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/aussuchen" 
+                android:entries="@array/kaufenverkaufen"/>
+
+            <EditText
+                android:id="@+id/EtZimmer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" 
+                android:hint="@string/zimmer">
+
+                <requestFocus />
+            </EditText>
+
+            <RadioGroup
+                android:id="@+id/RgBetreiber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/RbMit"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/mit"
+                    android:textColor="@color/darkgrey" />
+
+                <RadioButton
+                    android:id="@+id/RbOhne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ohne"
+                    android:textColor="@color/darkgrey" />
+            </RadioGroup>
+			<RatingBar
+                    android:id="@+id/RbSterne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numStars="5" />
+
+			<Spinner
+			    android:id="@+id/SpLand"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" 
+			    android:prompt="@string/land" 
+			    android:entries="@array/Land"/>
+
+			<EditText
+			    android:id="@+id/EtStadt"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="@string/stadt" />
+
+			<Spinner
+			    android:id="@+id/SpLage"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" android:prompt="@string/lage" 
+			    android:entries="@array/Lage"/>
+
+			<EditText
+			    android:id="@+id/EtName"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:inputType="textPersonName" />
+
+			<EditText
+			    android:id="@+id/EtTel"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="@string/tel"
+			    android:inputType="phone" />
+
+			<EditText
+			    android:id="@+id/EtEmail"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="@string/email"
+			    android:inputType="textEmailAddress" />
+
+			<EditText
+			    android:id="@+id/EtZusatz"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="@string/zusatz"
+			    android:inputType="textMultiLine" android:lines="8"/>
+
+			<Button
+			    android:id="@+id/BtSend"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:text="@string/send" android:clickable="true" android:onClick="email"/>
+			
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

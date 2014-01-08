@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kaufenverkaufen">
+        <item>@string/kaufen</item>
+        <item>@string/verkaufen</item>
+    </string-array>
+    
+    <string-array name="Land">
+        <item>@string/deutschland</item>
+        <item>@string/spanien</item>
+        <item>@string/oesterreich</item>
+        <item>@string/schweiz</item>
+    </string-array>
+    <string-array name="Lage">
+        <item>@string/wasser</item>
+        <item>@string/stadt</item>
+        <item>@string/land</item>
+    </string-array>
+    
+</resources>

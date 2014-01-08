@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Hotel Broker</string>
+    <string name="MainActivityLabel">Hotel Broker</string>
+    <string name="Jochen">Jochen Blümner </string>
+    <string name="weroderwas">Wer oder was ist Jochen Blümner?</string>
+    <string name="jocheninfo">Jochen Blümner war der aller erste Hotel Broker in Deutschland,
+    			Aus einer Idee wurde eine Institution. Jochen Blümner hat aus einer Idee ein 
+    			Familien Betrieb eschaffen was sogar grosse Broker vor Neid erblassen lässt.
+    			Als eine ein Mann Institution hat Jochen Blümner Objekte wie Das Swiss Hotel am Kudammeck
+    			das SAS Plaza in Hamburg, hat er sogar 3 mal verkauft,Schlosshotel in Karlsruhe, das Ibis und 
+    			NH Hotel in Hamburg, Columbus Hotel Bremen, Hotel Reinpark Duisburg. Dies sind nur die Deutschen Objekte
+    			Jochen Blümenr ist allerdings auch in der Schweiz, Spannien, österreicht tätig.
+    			Wenn Sie ein Hotel Kaufen oder verkaufen möcht sind Sie Bei Ihm Goldrichtig und wenn es 
+    			am Geld liegt wird Jochen Blümner Ihnen sogar mit Ihrer Finanzierung helfen, oder lassen Sie Ihr Objekt von Ihm schätzen. Er wird Ihnen in allen angelegenheiten zur Seite stehen.
+    			Jochen Blümner hat sich zwar auf Hotels spezializiert bietet aber auch Industrie und Einkaufzentren an.
+    			Jochen Blümner ist seit 49 Jahren der Beste auf seinem Gebiet, profitieren Sie von seiner 
+    			unschätzbaren erfahrung.</string>
+    <string name="kaufenverkaufen">Ich möchte ein Hotel...</string>
+    <string name="aussuchen">Suchen Sie aus</string>
+    <string name="verkaufen">Verkaufen</string>
+    <string name="kaufen">Kaufen</string>
+    <string name="zimmer">Anzahl der Zimmer</string>
+    <string name="mit">Mit Betreiber</string>
+    <string name="ohne">Ohne Betreiber</string>
+    <string name="land">Land</string>
+    <string name="deutschland">Deutschland</string>
+    <string name="spanien">Spanien</string>
+    <string name="schweiz">Schweiz</string>
+    <string name="oesterreich">österreich</string>
+    <string name="stadt">Stadt</string>
+    <string name="lage">Lage</string>
+    <string name="wasser">Wasser</string>
+    <string name="name">Ihr Name</string>
+    <string name="tel">Ihre Telfonnummer</string>
+    <string name="email">Ihre Email adresse</string>
+    <string name="zusatz">Sonder Wünsche</string>
+    <string name="send">Absenden</string>
+    <string name="menuItem3">Item 3</string>
+    <string name="menuItem2">Item 2</string>
+    <string name="menuItem5">Item 5</string>
+    <string name="menuItem4">Item 4</string>
+    <string name="menuItem1">Item 1</string>
+    <string name="actionBarTitle">Action Bar Title</string>
+    <string name="actionBarSubtitle">Action Bar Subtitle</string>
+    <string name="actionItem3">Action item 3</string>
+    <string name="actionItem2">Action item 2</string>
+    <string name="actionItem1">Action item 1</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RlMain"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bluemnermenu" >
+
+	<TableLayout
+	    android:id="@+id/TlMain"
+	    android:layout_width="250px"
+	    android:layout_height="400px"
+	    android:layout_centerHorizontal="true"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/BtInfo"
+		    android:layout_width="20px"
+		    android:layout_height="wrap_content"
+		    android:padding="10px"
+		    android:text="Info"
+		    android:visibility="visible" >
+
+		</Button>
+
+		<Button
+		    android:id="@+id/BtAnfrage"
+		    android:layout_width="20px"
+		    android:layout_height="wrap_content"
+		    android:padding="10px"
+		    android:text="Anfrage"
+		    android:visibility="visible">
+
+		</Button>
+		
+	</TableLayout>	
+</RelativeLayout>
